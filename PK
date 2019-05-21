@@ -14,10 +14,12 @@ for i in range(1,4):
     enemy_attack = random.randint(30,50)
 
     # 展示双方角色的属性
-    print('【玩家】\n'+'血量：'+str(player_life)+'\n攻击：'+str(player_attack))
+    #print('【玩家】\n'+'血量：'+str(player_life)+'\n攻击：'+str(player_attack))--可以替换成下面的形式
+    print('【玩家】\n'+'血量：%s\n攻击：%s' %(player_life,player_attack))
     print('------------------------')
     time.sleep(1)
-    print('【敌人】\n'+'血量：'+str(enemy_life)+'\n攻击：'+str(enemy_attack))
+    #print('【敌人】\n'+'血量：'+str(enemy_life)+'\n攻击：'+str(enemy_attack))
+    print('【敌人】\n'+'血量：%s\n攻击：%s' %(enemy_life,enemy_attack))
     print('------------------------')
     time.sleep(1)
 
