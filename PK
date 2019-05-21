@@ -1,3 +1,4 @@
+#随机产生属性，互相PK三局两胜（风变编程练习题）
 import time,random
 
 player_victory = 0
